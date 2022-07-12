@@ -37,7 +37,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/PyTorchLightning/lightning-bolts
+  home: https://github.com/Lightning-AI/lightning-bolts
   summary: PyTorch Lightning Bolts is a community contribution for ML researchers.
   license: Apache-2.0
   license_file: LICENSE
