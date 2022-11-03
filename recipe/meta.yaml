@@ -1,5 +1,5 @@
 {% set name = "lightning-bolts" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lightning-bolts-{{ version }}.tar.gz
-  sha256: 4d64a033a7b5b69c88852741ec37d60620c920bed7c11cd9515be3102410994f
+  sha256: d52cd197fd848794138577b44569b4f209c3bc0ffa389808b938a9a141479ed4
 
 build:
   number: 0
