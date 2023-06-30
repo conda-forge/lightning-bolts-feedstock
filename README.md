@@ -1,11 +1,11 @@
-About lightning-bolts
-=====================
+About lightning-bolts-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lightning-bolts-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Lightning-AI/lightning-bolts
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lightning-bolts-feedstock/blob/main/LICENSE.txt)
 
 Summary: PyTorch Lightning Bolts is a community contribution for ML researchers.
 
