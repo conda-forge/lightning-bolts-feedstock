@@ -7,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lightning-bolts-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lightning-bolts-{{ version }}.tar.gz
   sha256: 6071cda7721087890ba01523d6580fe72b03b842766fd5018a8eb9caa99fe75c
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
     - packaging
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy
     - pytorch-lightning >=1.7.0, <2.0.0
     - torchmetrics >=0.10.0, <0.12.0
@@ -37,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/Lightning-AI/lightning-bolts
